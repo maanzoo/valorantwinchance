@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Blanka";
+  src: url(fonts/Blanka-Regular.otf);
+}
+
+h1 {
+  font-family: "Blanka";
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3%;
+  color: #ede6db;
+}
+body {
+  background-image: url(images/road_turn_trees_191458_1920x1080.jpg);
+}
+
+label {
+  font-family: "Teko", sans-serif;
+  font-size: 5rem;
+  color: #ede6db;
+}
+
+/* input {
+  width: 75%;
+} */
+#aname,
+#mname {
+  background-color: #417d7a;
+  border: #417d7a;
+  margin-bottom: 3rem;
+  width: 75%;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Teko", sans-serif;
+}
+
+.submitbutton {
+  display: block;
+  margin: auto;
+  font-family: "Teko", sans-serif;
+  margin-top: 2rem;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  background-color: #417d7a;
+  display: hidden;
+}
+
+.button:hover {
+  transform: scale(110%);
+}
+.site {
+  text-align: center;
+  padding-top: 3rem;
+}
+.btnHesapla {
+  margin: auto;
+  margin-top: 3rem;
+  display: block;
+  background-color: white;
+  font-family: "Teko", sans-serif;
+}
+
+#result {
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  font-size: 2rem;
+  color: #ede6db;
+}
